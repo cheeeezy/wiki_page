@@ -14,4 +14,4 @@ RUN pip install mkdocs mkdocs-material
 EXPOSE 8001
 
 # Команда для запуска локального сервера
-CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8000"]
+CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8001"]
