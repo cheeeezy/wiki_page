@@ -11,7 +11,7 @@ COPY . .
 RUN pip install mkdocs mkdocs-material
 
 # Открываем порт 8000 для mkdocs serve
-EXPOSE 8000
+EXPOSE 8001
 
 # Команда для запуска локального сервера
 CMD ["mkdocs", "serve", "--dev-addr=0.0.0.0:8000"]
