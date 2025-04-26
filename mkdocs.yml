@@ -1,0 +1,13 @@
+site_name: Wiki
+theme:
+  name: material
+  palette:
+    scheme: default # или slate для тёмной темы
+  features:
+    - content.code.copy # Кнопка копирования кода
+    - search.suggest # Автодополнение в поиске
+nav:
+  - Старт: index.md
+  - Арбитраж: arbitrage.md
+repo_url: https://github.com/
+repo_name: CPL
